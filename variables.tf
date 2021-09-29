@@ -29,11 +29,6 @@ variable "timeout" {
 
 # API Gateway
 
-variable "integration_method" {
-  type    = string
-  default = "ANY"
-}
-
 variable "route_key" {
   type    = string
   default = "$default"
