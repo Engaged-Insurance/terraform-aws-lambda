@@ -1,5 +1,5 @@
 variable "aws_region" {
-  type    = string
+  type = string
 }
 
 # Lambda
@@ -23,7 +23,8 @@ variable "env_vars" {
 }
 
 variable "timeout" {
-  type = number
+  type    = number
+  default = 10
 }
 
 
